@@ -1,0 +1,28 @@
+# Ignore Unity temporary files
+[Tt]emp/
+[Tt]emp*/
+
+# Ignore Unity Library folder
+[Ll]ibrary/
+
+# Ignore Unity build files
+[Bb]uild/
+[Bb]uilds/
+
+# Ignore Unity log files
+[Ll]ogs/
+
+# Ignore OS-specific files
+[Dd]esktop.ini
+.DS_Store
+Thumbs.db
+
+# Ignore project settings
+[Pp]rojectSettings/Assets/AssetStoreTools*
+
+# Ignore auto-generated files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.userprefs
