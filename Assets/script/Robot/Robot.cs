@@ -12,7 +12,7 @@ public class Robot : MonoBehaviour
 {
     public List<Component> components;
     public List<int> componentsIndices;
-    public List<float> pins;
+    public List<float> pins; // Pins take a value between -5.0 and 5.0 to work as intended, higher values might dammage the system 
 
     private int GetCompPin(int compIdx, int compPin) {
         return componentsIndices[compIdx] + compPin;
