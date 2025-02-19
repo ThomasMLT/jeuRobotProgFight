@@ -13,8 +13,8 @@ public class RobotFactory : MonoBehaviour
 
         GameObject newRobot =Instantiate(robot, new Vector3(0, 0, 0), Quaternion.identity);
         Instantiate(body, new Vector3(0, 0, 0), Quaternion.identity, newRobot.transform);
-        Instantiate(wheel, new Vector3(0,0,1.4f), Quaternion.identity, newRobot.transform);
-        Instantiate(springConnection, new Vector3(0,0,1.2f), Quaternion.identity, newRobot.transform);
+        Instantiate(wheel, new Vector3(0,0.9f,0), Quaternion.identity, newRobot.transform);
+        Instantiate(springConnection, new Vector3(0,0.7f,0), Quaternion.identity, newRobot.transform);
         
 
     }
