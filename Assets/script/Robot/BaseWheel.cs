@@ -3,14 +3,12 @@ using UnityEngine;
 public class BaseWheel : Component
 {
 
-    private enum Pins {
-        WHEEL_SPEED_INPUT_PIN = 0
-    };
+    private const int WHEEL_SPEED_INPUT_PIN = 0;
 
     public float speed;
 
     float InputToSpeed() {
-        return GetValue(WHEEL_SPEED_INPUT_PIN) * 54.0;
+        return GetValue(WHEEL_SPEED_INPUT_PIN) * 54.0f;
     }
 
 

@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Component : MonoBehaviour
 {
-    public const uint pinCount;
-    public const uint compIdx;
+    public const int pinCount = 0;
+    public const int compIdx = 0;
     public Robot motherboard;
 
     public void SendValue(int pin, float value) {

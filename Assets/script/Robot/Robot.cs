@@ -11,24 +11,24 @@ public struct Connection {
 public class Robot : MonoBehaviour
 {
     public List<Component> components;
-    public List<uint> componentsIndices;
+    public List<int> componentsIndices;
     public List<float> pins;
 
-    private uint GetCompPin(uint compIdx, uint compPin) {
+    private int GetCompPin(int compIdx, int compPin) {
         return componentsIndices[compIdx] + compPin;
     }
 
-    public void SetPin(uint compIdx, uint pinIdx, float value) {
+    public void SetPin(int compIdx, int pinIdx, float value) {
         pins[GetCompPin(compIdx, pinIdx)] = value;
     }
-    public void SetPin(uint absIdx, float value) {
+    public void SetPin(int absIdx, float value) {
         pins[absIdx] = value;
     }
 
-    public float GetPin(uint compIdx, uint pinIdx) {
+    public float GetPin(int compIdx, int pinIdx) {
         return pins[GetCompPin(compIdx, pinIdx)];
     }
-    public float GetPin(uint absIdx) {
+    public float GetPin(int absIdx) {
         return pins[absIdx];
     }
 
