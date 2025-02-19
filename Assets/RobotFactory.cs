@@ -6,13 +6,15 @@ public class RobotFactory : MonoBehaviour
 
     public GameObject body;
     public GameObject wheel;
+    public GameObject springConnection;
     
 
     void BuildRobot() {
 
         GameObject newRobot =Instantiate(robot, new Vector3(0, 0, 0), Quaternion.identity);
         Instantiate(body, new Vector3(0, 0, 0), Quaternion.identity, newRobot.transform);
-        Instantiate(wheel, new Vector3(0, 0, 0), Quaternion.identity, newRobot.transform);
+        Instantiate(wheel, new Vector3(0,0,1.4f), Quaternion.identity, newRobot.transform);
+        Instantiate(springConnection, new Vector3(0,0,1.2f), Quaternion.identity, newRobot.transform);
         
 
     }
