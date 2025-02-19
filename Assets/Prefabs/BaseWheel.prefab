@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3822240817100623002}
   - component: {fileID: 9117769691816924937}
   - component: {fileID: 5058957721662652304}
+  - component: {fileID: 7963287417002876805}
   m_Layer: 0
   m_Name: BaseWheel
   m_TagString: Untagged
@@ -161,3 +162,17 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.0000004, y: 2.0000005}
   m_EdgeRadius: 0
+--- !u!114 &7963287417002876805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828290510000111249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19dedba439df9e94b8e08a63a638b5d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motherboard: {fileID: 0}
+  speed: 0

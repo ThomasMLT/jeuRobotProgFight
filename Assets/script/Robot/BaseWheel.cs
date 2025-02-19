@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class BaseWheel : Component
+public class BaseWheel : RobotComponent
 {
 
     private const int WHEEL_SPEED_INPUT_PIN = 0;
