@@ -24,4 +24,5 @@ Thumbs.db
 *.csproj
 *.unityproj
 *.suo
+*.sln
 *.userprefs
