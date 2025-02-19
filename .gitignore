@@ -23,6 +23,5 @@ Thumbs.db
 # Ignore auto-generated files
 *.csproj
 *.unityproj
-*.sln
 *.suo
 *.userprefs
