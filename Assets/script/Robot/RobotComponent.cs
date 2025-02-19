@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Component : MonoBehaviour
+public class RobotComponent : MonoBehaviour
 {
     public const int pinCount = 0;
     public const int compIdx = 0;
